@@ -39,4 +39,4 @@ All tunables in `config.py`, loaded from `.env` via `python-dotenv`. Cloud crede
 
 ### LangChain API usage
 
-Uses modern LangChain >=0.3 APIs. Do NOT use deprecated `ConversationalRetrievalChain` — use `create_history_aware_retriever` and `create_retrieval_chain` from `langchain.chains`.
+Uses LangChain 1.x with `langchain_classic` for chains. Do NOT use deprecated `ConversationalRetrievalChain` — use `create_history_aware_retriever` and `create_retrieval_chain` from `langchain_classic.chains`.
